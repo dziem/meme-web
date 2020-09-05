@@ -1,0 +1,108 @@
+nav{
+	position: fixed;
+	top: 0;
+	z-index: 9999;
+}
+img{
+	max-width: 100%;
+}
+.container.content, .container.autcontent{
+	max-width: 640px;
+	padding: 15px 0;
+	margin-top: 64px;
+}
+h6{
+	font-size: 24px;
+}
+.container.content a{
+	font-size: 16px;
+	color: #7f8c8d;
+}
+.container.content p.author{
+	font-size: 16px;
+	color: #7f8c8d;
+	line-height: 1;
+	margin: 0;
+	margin-top: -5px;
+	margin-bottom: 15px;
+}
+.container.content span.badge,.container.autcontent span.badge{
+	float: none;
+	color: white;
+	font-weight: bold;
+	padding: 2.5px 7.5px;
+	border-radius: 5px;
+	margin-left: 0px;
+}
+.container.autcontent p{
+	margin-top: 5px;
+}
+form{
+	margin-top: 114px;
+	background: white;
+	box-shadow: 0px 0px 5px #95a5a6;
+}
+/* label focus color */
+.input-field input:focus + label {
+    color: #ffb300 !important;
+}
+/* label underline focus color */
+.input-field input:focus {
+	border-bottom: 1px solid #ffb300 !important;
+	box-shadow: 0 1px 0 0 #ffb300 !important;
+}
+#test6:checked + label:before {
+	border-right: 2px solid #ffb300; /* You need to change the colour here */
+	border-bottom: 2px solid #ffb300;
+}
+.dropdown-content li a{
+	color: #ffb300;
+}
+.dropdown-content li :hover{
+	background: #ecf0f1;
+}
+.btn-container{
+	margin: 10px auto;
+}
+.btn-container button:last-child{
+	left: 10px;
+}
+.btn-container button{
+	padding-left: 18px;
+	padding-right: 18px;
+	transition: all 300ms;
+}
+.btn-container button:first-child.voted i, .btn-container button:first-child:hover i{
+	color: #3498db;
+}
+.btn-container button:last-child.voted i, .btn-container button:last-child:hover i{
+	color: #c0392b;
+}
+.btn-container i{
+	color: black;
+	transition: all 300ms;
+}
+/*@media screen and (max-width:992px){
+	nav{
+		height: auto;
+		float: left;
+	}
+	nav .brand-logo{
+		width: 100%;
+		float: left;
+		position: relative;
+		text-align: center;
+	}
+	nav ul{
+		width: 100%;
+		float: left;
+		text-align: center;
+	}
+	nav ul li{
+		float: none;
+		display: inline-block;
+	}
+	.container.content{
+		clear: both;
+	}
+}*/
